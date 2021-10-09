@@ -1,12 +1,47 @@
 .menu{
-    border: 1px solid blue;
+    color:rgb(0, 162, 255);
+    user-select: none; 
+    -moz-user-select: none; 
+    -khtml-user-select: none;
     margin-left: 20%; 
     margin-right: 20%;
     margin-top: 1%;
     width: 60%;
-    height: 5%; 
-    max-width: 100%;}
-.menu hover{border: 1px solid lightblue}
-.header{}
-.text-field{}
-.footnote{}
+    height: 10%; 
+    max-width: 100%;
+    font-size: 175%}
+.cell:hover{
+    color: rgb(0, 0, 0);
+    cursor: hand;}
+.header{
+    user-select: none; 
+    -moz-user-select: none; 
+    -khtml-user-select: none;
+    font-size: 250%;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20%; 
+    margin-right: 20%; 
+    margin-top: 3%}
+body{
+    background-color: rgb(236, 236, 236);
+}
+.text-field{
+    user-select: none; 
+    -moz-user-select: none; 
+    -khtml-user-select: none;
+    margin-left: 20%; 
+    margin-right: 20%; 
+    margin-top: 1%;
+    font-size: 150%;}
+.footnote{
+    font-size: 125%;
+    margin-top: 5%;
+    margin-left: 20%; 
+    margin-right: 20%;
+    border: 2px solid black; 
+    background-color: rgb(168, 168, 168);
+}
+.account{
+    padding: 1%;
+}
