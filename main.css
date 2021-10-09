@@ -22,11 +22,11 @@
     text-align: center;
     margin-left: 20%; 
     margin-right: 20%; 
-    margin-top: 3%}
+    margin-top: 2%}
 body{
     background-color: rgb(236, 236, 236);
 }
-.text-field{
+.main-part{
     user-select: none; 
     -moz-user-select: none; 
     -khtml-user-select: none;
