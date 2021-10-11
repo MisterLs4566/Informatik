@@ -40,14 +40,14 @@ body{
     padding-top: 10%;
     margin: auto;
     width: 0.2%;
-    height: 30%;
+    height: 10%;
     border-radius: 10%;
     border: 2px solid black;
 }
-.timeline:hover{
-    background:rgb(0, 225, 255);
-    border-radius: 10%;
-    border: 2px solid rgb(0, 255, 255);
+.text1{
+    font-weight: bold;
+    font-size: 150%;
+    transform: translate(50px, -100px);
 }
 .footnote{
     font-size: 125%;
