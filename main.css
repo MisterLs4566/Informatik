@@ -1,19 +1,27 @@
+.text{background-color: white;
+      margin-right: 20%;
+      margin-left: 20%;
+      text-align: justify;
+      max-width: 100%;
+      border: 2px solid black;
+      border-radius: 10px}
 .menu{
-    color:rgb(0, 162, 255);
+    color: #001233;
     user-select: none; 
     -moz-user-select: none; 
     -khtml-user-select: none;
-    margin-left: 20%; 
-    margin-right: 20%;
-    margin-top: 1%;
-    width: 60%;
-    height: 10%; 
-    max-width: 100%;
-    font-size: 175%}
+    margin-top: 5%;
+    width: 40%;
+    height: 5%; 
+    font-size: 175%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #979dac;}
 .cell:hover{
-    color: rgb(0, 225, 255);
+    color: #bde0fe;
     cursor: hand;}
 .header{
+    max-block-size: 100%;
     user-select: none; 
     -moz-user-select: none; 
     -khtml-user-select: none;
@@ -24,7 +32,7 @@
     margin-right: 20%; 
     margin-top: 2%}
 body{
-    background-color: rgb(236, 236, 236);
+    background-color: #0466c8;
 }
 .main_part{
     user-select: none; 
@@ -54,24 +62,19 @@ body{
     margin-top: 5%;
     margin-left: 20%; 
     margin-right: 20%;
-    border: 3px solid black; 
-    background-color: rgb(168, 168, 168);
-}
-.account{
-    padding: 1%;
-}
-.account:hover{
-    color:rgb(0, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #979dac;
 }
 ::-webkit-scrollbar{
     width: 1em;
 }
 ::-webkit-scrollbar-track{
-    background:rgb(0, 0, 0)
+    background: #33415c
 }
 ::-webkit-scrollbar-thumb{
-    background: rgb(0, 162, 255);
+    background: #001233;
 }
-::-webkit-scrollbar-thumb:hover{
-    background: rgb(0, 225, 255);
+::-webkit-scrollbar-thumb:active{
+    background: #001845;
 }
