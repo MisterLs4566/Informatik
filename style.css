@@ -1,26 +1,39 @@
+@import url('http://fonts.cdnfonts.com/css/atari');
 .text{background-color: white;
       margin-right: 20%;
       margin-left: 20%;
       text-align: justify;
       max-width: 100%;
       border: 2px solid black;
-      border-radius: 10px}
+      border-radius: 10px;}
+
 .menu{
-    color: #001233;
+    color: black;
     user-select: none; 
     -moz-user-select: none; 
     -khtml-user-select: none;
     margin-top: 5%;
     width: 40%;
-    height: 5%; 
+    height: 4%; 
     font-size: 2vw;
     border: 2px solid black;
     border-radius: 10px;
     background-color: #979dac;}
+
 .cell:hover{
     color: #bde0fe;
     cursor: hand;}
+
 .header{
+    animation-name: fade_in;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    font-family:"Atari";
+    text-shadow: 2px  2px 2px black,
+                 2px -2px 2px black,
+                 -2px  2px 2px black,
+                 -2px -2px 2px black;;
+    color: #979DAC;
     max-block-size: 100%;
     user-select: none; 
     -moz-user-select: none; 
@@ -30,15 +43,18 @@
     text-align: center;
     margin-left: 20%; 
     margin-right: 20%; 
-    margin-top: 2%}
+    margin-top: 5%}
+
 @media screen and (min-width: 1500px) {
     .header {
         font-size: 46px;
     }
 }
+
 body{
     background-color: #0466c8;
 }
+
 .main_part{
     user-select: none; 
     -moz-user-select: none; 
@@ -48,6 +64,7 @@ body{
     margin-top: 1%;
     margin-bottom: 5%;
     font-size: 150%;}
+
 .timeline{
     background:rgb(0, 162, 255);
     padding-top: 10%;
@@ -57,11 +74,13 @@ body{
     border-radius: 10%;
     border: 2px solid black;
 }
+
 .text1{
     font-weight: bold;
     font-size: 150%;
     transform: translate(50px, -100px);
 }
+
 .footnote{
     font-size: 2vw;
     margin-top: 5%;
@@ -71,20 +90,28 @@ body{
     border-radius: 10px;
     background-color: #979dac;
 }
+
+@keyframes fade_in{
+    from {color: #0466c8}
+}
 @media screen and (min-width: 1500px) {
     .footnote {
         font-size: 30px;
     }
 }
+
 ::-webkit-scrollbar{
     width: 1em;
 }
+
 ::-webkit-scrollbar-track{
     background: #33415c
 }
+
 ::-webkit-scrollbar-thumb{
     background: #001233;
 }
+
 ::-webkit-scrollbar-thumb:active{
     background: #001845;
 }
