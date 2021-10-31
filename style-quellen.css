@@ -1,12 +1,10 @@
+@import url('http://fonts.cdnfonts.com/css/atari');
 body{
-    background-color: #0466C8;}
-
-a:hover{
-    color: #bde0fe;
-    cursor: hand;}
+    background-color:#979dac;}
 
 .header{
     animation-iteration-count: 1;
+    font-family:"Atari";
     text-shadow: 2px  2px 2px black,
                  2px -2px 2px black,
                  -2px  2px 2px black,
@@ -19,37 +17,28 @@ a:hover{
     font-weight: bold;
     text-align: center;
     margin-left: 20%; 
-    margin-right: 20%;}
+    margin-right: 20%; 
+    margin-top: 5%}
 
-.intro{
-    text-align: justify;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    font-size: 150%;}    
-
-.language{
-    border: 1px solid black;
-    border-radius: 10px;
-    text-align: center;
+.link{
+    width: 100%;
     font-size: 150%;
+    margin: 0 auto;
     margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: white}
+    text-align: center;}
 
-.python{
-    color:blue
-    }
+a:hover{
+    color: #bde0fe;
+    cursor: hand;}
 
 ::-webkit-scrollbar{
     width: 1em;}
-      
+          
 ::-webkit-scrollbar-track{
     background: #33415c}
-      
+          
 ::-webkit-scrollbar-thumb{
     background: #001233;}
-      
+          
 ::-webkit-scrollbar-thumb:active{
     background: #001845;}

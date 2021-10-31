@@ -24,6 +24,10 @@
     color: #bde0fe;
     cursor: hand;}
 
+a:hover{
+    color: #bde0fe;
+    cursor: hand;}
+
 .header{
     animation-name: fade_in;
     animation-duration: 10s;
