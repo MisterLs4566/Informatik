@@ -1,9 +1,11 @@
-.header{color: white;
+.header{color: #2C7AD6;
         font-size: 250%;
         text-align: center;
         font-weight: bold}
 
 body{background-color: #1E1E1E}
+
+.menu{color: #D7AB4C}
 
 .language{color: #9CDCFE;
         font-size: 200%;
