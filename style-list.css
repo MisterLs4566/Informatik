@@ -1,9 +1,10 @@
-.header{font-size: 3vw;
+.header{color: white;
+        font-size: 250%;
         text-align: center;
         font-weight: bold}
 
 body{background-color: #1E1E1E}
 
-.text{text-align: justify;}
-
-.language{color: #9CDCFE}
+.language{color: #9CDCFE;
+        font-size: 200%;
+        text-align: center}
